@@ -9,4 +9,4 @@ chrome.runtime.onInstalled.addListener(() => {
 
 // NOTE: If you want to toggle the side panel from the extension's action button,
 // you can use the following code:
-// chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true }).catch((error) => console.error(error));
+chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true }).catch((error) => console.error(error));
