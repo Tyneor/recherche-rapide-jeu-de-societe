@@ -20,7 +20,3 @@ export const readXmlStream = async (stream: ReadableStream<Uint8Array>) => {
     reader.releaseLock();
   }
 };
-
-export const getTagValue = (element: Element) => {
-  return element.childNodes[0].nodeValue;
-};
